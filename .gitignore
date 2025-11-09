@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Airflow
+airflow_home/logs/
+airflow_home/*.pid
+airflow_home/airflow-webserver.pid
+
+# Data & output
+data/*.tmp
+output/*.tmp
+output/*.csv
+localdb/*.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
